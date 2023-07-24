@@ -1,0 +1,99 @@
+:root{
+  --main-color: #74C3D5;
+  --darker-color: #003B4A;
+  --light-color: #FFDD00;
+}
+
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* Nutný opravy: */
+  .hodiny, .navigace, .hodiny *, .navigace *, .hodiny-pozice span, .hodiny-pozice a{
+    background-color: white;  
+  }
+
+  .hodiny h5, .hodiny a{
+    color: var(--darker-color);
+  }
+
+  .line1, .line2, .line3{
+    background-color: var(--darker-color);
+  }
+  
+  /* Styly */
+  .about-center{
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .coje-text{
+    padding: 20px 0px;
+  }
+
+  .coje-text:nth-child(2){
+    padding: 0px 0px;
+  }
+
+  .coje-text h2{
+    padding: 10px 0px 20px 0px;
+    font-size: 2.5rem;
+    color: var(--darker-color);
+  }
+
+  #coje-prvni{
+    font-size: 2.5rem;
+    color: var(--darker-color);
+  }
+
+  .coje h2 span{
+    color: var(--main-color);
+  }
+
+  .coje p{
+    color: var(--darker-color);
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    max-width: 600px;
+    text-align: justify;
+    margin: 15px 0px;
+  }
+
+  .coje p:last-child{
+    margin: 0px;
+  }
+
+  .coje-img{
+    max-width: 600px;
+    border-radius: 30px;
+    margin: 30px auto 30px auto;
+    overflow: hidden;
+  }
+
+  .coje-img img{
+    width: 100%;
+    border-radius: 40px;
+  }
+
+  #about-last{
+    margin-bottom: 100px;
+  }
+
+}
+
+@media (min-width:480px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+  /* Styly */
+}
+
+@media (min-width:600px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+}
+
+@media (min-width:801px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+  /* Styly */
+  
+}
+
+@media (min-width:1025px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+}
+
+@media (min-width:1281px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+  
+}

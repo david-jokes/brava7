@@ -1,0 +1,422 @@
+:root{
+  --main-color: #74C3D5;
+  --darker-color: #003B4A;
+  --light-color: #FFDD00;
+}
+
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* Nutný opravy: */
+  .hodiny, .navigace, .hodiny *, .navigace *, .hodiny-pozice span, .hodiny-pozice a{
+    background-color: white;  
+  }
+
+  .hodiny h5, .hodiny a{
+    color: var(--darker-color);
+  }
+
+  .line1, .line2, .line3{
+    background-color: var(--darker-color);
+  }
+  
+  /* Styly */
+  .nadpis{
+    text-align: center;
+    margin: 20px auto;
+    color: var(--darker-color);
+    font-size: 2rem;
+  }
+
+  .nadpis span{
+    color: var(--main-color);
+  }
+  
+  .center{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .nabidka{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    justify-content: center;
+  }
+
+  .item{
+    min-width: 100vw;
+    overflow: hidden;
+    object-fit: contain;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .item-img{
+    width: 220px;
+    height: 380px;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+  .item-img img{
+    position: relative;
+    top: -17%;
+    left: -70%;
+    width: 250%;
+    object-fit: contain;
+    scale: 1.2;
+    transition: scale 0.1s linear;
+  }
+
+  .item h1{
+    margin-top: 30px;
+    font-weight: 500;
+    color: var(--darker-color);
+    text-transform: uppercase;
+    font-size: 25px;
+  }
+
+  .cena{
+    font-weight: 600;
+    color: var(--light-color);
+  }
+
+  .czk{
+    font-size: 70%;
+    font-weight: 500;
+    position: relative;
+    top: -6px;
+  }
+
+  .item p{
+    margin: 10px auto;
+    width: 240px;
+    color: rgb(168, 168, 168);
+    font-weight: 400;
+    text-align: justify;
+  }
+}
+
+@media (min-width:480px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+  /* Styly */
+  .nadpis{
+    text-align: center;
+    margin: 20px auto 50px auto;
+    color: var(--darker-color);
+    font-size: 2rem;
+  }
+
+  .nadpis span{
+    color: var(--main-color);
+  }
+  
+  .center{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .nabidka{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    justify-content: center;
+  }
+
+  .item{
+    min-width: 100vw;
+    overflow: hidden;
+    object-fit: contain;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .item-img{
+    width: 260px;
+    height: 380px;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+  .item-img img{
+    position: relative;
+    top: -17%;
+    left: -70%;
+    width: 250%;
+    object-fit: contain;
+  }
+
+  .item h1{
+    margin-top: 30px;
+    font-weight: 500;
+    color: var(--darker-color);
+    text-transform: uppercase;
+    font-size: 25px;
+  }
+
+  .cena{
+    font-weight: 600;
+    color: var(--light-color);
+  }
+
+  .czk{
+    font-size: 70%;
+    font-weight: 500;
+    position: relative;
+    top: -6px;
+  }
+
+  .item p{
+    margin: 10px auto;
+    width: 240px;
+    font-weight: 400;
+    text-align: justify;
+  }
+}
+
+@media (min-width:600px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+}
+
+@media (min-width:801px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+  /* Styly */
+  .nadpis{
+    text-align: center;
+    margin: 20px auto 50px auto;
+    color: var(--darker-color);
+    font-size: 2rem;
+  }
+
+  .nadpis span{
+    color: var(--main-color);
+  }
+  
+  .center{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .nabidka{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    justify-content: center;
+  }
+
+  .item{
+    min-width: 40vw;
+    overflow: hidden;
+    object-fit: contain;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .item-img{
+    width: 260px;
+    height: 380px;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+  .item-img img{
+    position: relative;
+    top: -17%;
+    left: -70%;
+    width: 250%;
+    object-fit: contain;
+  }
+
+  .item h1{
+    margin-top: 30px;
+    font-weight: 500;
+    color: var(--darker-color);
+    text-transform: uppercase;
+    font-size: 25px;
+  }
+
+  .cena{
+    font-weight: 600;
+    color: var(--light-color);
+  }
+
+  .czk{
+    font-size: 70%;
+    font-weight: 500;
+    position: relative;
+    top: -6px;
+  }
+
+  .item p{
+    margin: 10px auto;
+    width: 240px;
+    font-weight: 400;
+    text-align: justify;
+  }
+}
+
+@media (min-width:1025px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+  .nadpis{
+    text-align: center;
+    margin: 20px auto 50px auto;
+    color: var(--darker-color);
+    font-size: 2rem;
+  }
+
+  .nadpis span{
+    color: var(--main-color);
+  }
+  
+  .center{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .nabidka{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    justify-content: center;
+  }
+
+  .item{
+    min-width: 25vw;
+    overflow: hidden;
+    object-fit: contain;
+    text-align: center;
+    margin: 0px auto 30px auto;
+  }
+
+  .item-img{
+    width: 360px;
+    height: 480px;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+  .item-img img{
+    position: relative;
+    top: -17%;
+    left: -70%;
+    width: 250%;
+    object-fit: contain;
+  }
+
+  .item h1{
+    margin-top: 30px;
+    font-weight: 500;
+    color: var(--darker-color);
+    text-transform: uppercase;
+    font-size: 25px;
+  }
+
+  .cena{
+    font-weight: 600;
+    color: var(--light-color);
+  }
+
+  .czk{
+    font-size: 70%;
+    font-weight: 500;
+    position: relative;
+    top: -6px;
+  }
+
+  .item p{
+    margin: 10px auto;
+    width: 240px;
+    font-weight: 400;
+    text-align: justify;
+  }
+}
+
+@media (min-width:1281px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+  .nadpis{
+    text-align: center;
+    margin: 20px auto 50px auto;
+    color: var(--darker-color);
+    font-size: 2rem;
+  }
+
+  .nadpis span{
+    color: var(--main-color);
+  }
+  
+  .center{
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .nabidka{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    justify-content: center;
+  }
+
+  .item{
+    min-width: 25vw;
+    overflow: hidden;
+    object-fit: contain;
+    text-align: center;
+    margin: 0px auto 30px auto;
+  }
+
+  .item-img{
+    width: 350px;
+    height: 480px;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+  .item-img img{
+    position: relative;
+    top: -7%;
+    left: -25%;
+    width: 150%;
+    object-fit: contain;
+  }
+
+  .item h1{
+    margin-top: 30px;
+    font-weight: 500;
+    color: var(--darker-color);
+    text-transform: uppercase;
+    font-size: 25px;
+  }
+
+  .cena{
+    font-weight: 600;
+    color: var(--light-color);
+  }
+
+  .czk{
+    font-size: 70%;
+    font-weight: 500;
+    position: relative;
+    top: -6px;
+  }
+
+  .item p{
+    margin: 10px auto;
+    width: 240px;
+    font-weight: 400;
+    text-align: justify;
+  }
+}
